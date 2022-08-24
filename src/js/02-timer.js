@@ -12,12 +12,6 @@ const refs = {
   minutes: document.querySelector('span[data-minutes]'),
   seconds: document.querySelector('span[data-seconds]'),
 };
-// console.log(refs.inputDate);
-// console.log(refs.startBtn);
-// console.log(refs.days);
-// console.log(refs.hours);
-// console.log(refs.minutes);
-// console.log(refs.seconds);
 
 function convertMs(ms) {
   // Number of milliseconds per unit of time
